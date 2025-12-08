@@ -1,0 +1,7 @@
+[tools]
+"aqua:pre-commit/pre-commit" = "latest"
+
+[tasks.install]
+description = "Install dependencies"
+alias = "i"
+run = "pre-commit install"

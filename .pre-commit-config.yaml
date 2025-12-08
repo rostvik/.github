@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://json.schemastore.org/pre-commit-config.json
+
+repos:
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v3.1.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+        args: []
