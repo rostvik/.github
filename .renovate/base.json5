@@ -1,8 +1,9 @@
 {
-  "extends": [
+  extends: [
     "config:best-practices"
   ],
   timezone: "Europe/Oslo",
+  dryRun: false,
   "pre-commit": {
     "enabled": true
   }
