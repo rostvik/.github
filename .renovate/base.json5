@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:best-practices"
+  ],
+  timezone: "Europe/Oslo",
+  "pre-commit": {
+    "enabled": true
+  }
+}
