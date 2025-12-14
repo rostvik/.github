@@ -1,5 +1,5 @@
 [tools]
-"aqua:pre-commit/pre-commit" = "4.4.0"
+"aqua:pre-commit/pre-commit" = "4.5.0"
 
 [tasks.install]
 description = "Install dependencies"
