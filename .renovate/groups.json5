@@ -1,0 +1,21 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  packageRules: [
+    {
+      description: "Yamllint group",
+      groupName: "yamllint",
+      matchPackageNames: ["/yamllint/"],
+      group: {
+        commitMessageTopic: "{{{groupName}}} group",
+      },
+    },
+    {
+      description: "Ansible Lint group",
+      groupName: "ansible-lint",
+      matchPackageNames: ["/ansible-lint/"],
+      group: {
+        commitMessageTopic: "{{{groupName}}} group",
+      },
+    }
+  ]
+}
