@@ -1,6 +1,8 @@
 {
   extends: [
-    "config:best-practices"
+    "config:best-practices",
+    "github>rostvik/.github//.renovate/groups.json5",
+    "github>rostvik/.github//.renovate/mise.json5",
   ],
   timezone: "Europe/Oslo",
   dryRun: false,
