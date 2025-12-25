@@ -20,7 +20,7 @@
     {
       description: "UV group",
       groupName: "uv",
-      matchPackageNames: ["/uv/"],
+      matchPackageNames: ["/uv/", "/uv-pre-commit/"],
       group: {
         commitMessageTopic: "{{{groupName}}} group",
       },
