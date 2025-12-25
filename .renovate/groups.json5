@@ -16,6 +16,14 @@
       group: {
         commitMessageTopic: "{{{groupName}}} group",
       },
+    },
+    {
+      description: "UV group",
+      groupName: "uv",
+      matchPackageNames: ["/uv/"],
+      group: {
+        commitMessageTopic: "{{{groupName}}} group",
+      },
     }
   ]
 }
